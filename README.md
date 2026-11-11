@@ -4,7 +4,7 @@ A Windows desktop control hub for local AI models: inspect memory, discover mode
 
 ## Download and run
 
-1. Download **Model-Monitor-Windows-v0.1.0.zip** from [Releases](https://github.com/mathiasmednick/model-monitor/releases/latest).
+1. Download **Model-Monitor-Windows-v0.1.0.zip** from [Releases](https://github.com/mathiasmednick/model-monitor/releases).
 2. Right-click the ZIP and choose **Extract All**. Put the folder somewhere you can write to, such as Documents.
 3. Install [Python for Windows](https://www.python.org/downloads/windows/) with Tkinter (included in the standard installer). This version was checked with Python 3.14.
 4. Double-click **Start Model Monitor.cmd** inside the extracted folder.
@@ -26,3 +26,4 @@ The optional **Repair allocation limit** action changes the Windows C: page-file
 Run `python test_monitor.py` from this folder. Software tests do not certify GPU compatibility, model fit, speed or full-window context behavior on another PC. This is an early release; test with your own setup.
 
 Known issue in this preview: 85 of 86 existing tests passed on the publishing PC. The installed-OpenCode integration test did not find the expected visible Build and Plan agents. OpenCode integration needs further verification.
+
